@@ -1,0 +1,144 @@
+body{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+h2{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 33px;;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h3{
+  color: hsl(234, 12%, 34%);
+}
+
+p{
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+}
+
+.top-paragraph{
+  margin: 0 35% auto 35%;
+}
+
+.container{
+  padding: auto 300px;
+  position: relative;
+}
+
+.teambuilder{
+  border-top-style: solid;
+  border-color: hsl(0, 78%, 62%);
+  border-width: 2px;
+  border-radius: 5px;
+  position: relative;
+  width: 22rem;
+  height: 15rem;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 5px 10px hsl(229, 6%, 66%);
+}
+
+.icon-teambuilder{
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.karma{
+  border-top-style: solid;
+  border-color: hsl(34, 97%, 64%);
+  border-width: 2px;
+  border-radius: 5px;
+  position: relative;
+  width: 22rem;
+  height: 15rem;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 5px 10px hsl(229, 6%, 66%);
+}
+
+.icon-karma{
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.supervisor{
+  border-top-style: solid;
+  border-color: hsl(180, 62%, 55%);
+  border-width: 2px;
+  border-radius: 5px;
+  position: relative;
+  width: 22rem;
+  height: 15rem;
+  margin: 40px auto 30px auto;
+  box-shadow: 0 5px 10px hsl(229, 6%, 66%);
+  top: 25%;
+}
+
+.icon-supervisor{
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.calculator{
+  border-top-style: solid;
+  border-color: hsl(212, 86%, 64%);
+  border-width: 2px;
+  border-radius: 5px;
+  position: relative;
+  width: 22rem;
+  height: 15rem;
+  margin: 40px auto 50px auto;
+  box-shadow: 0 5px 10px hsl(229, 6%, 66%);
+  top: 25%;
+}
+
+.icon-calculator{
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.inner-box{
+  margin: 15px 20px 15px 20px;
+  text-align: left;
+}
+
+.image{
+  text-align: right;
+}
+
+.attribution{
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px){
+  .supervisor{
+    top: 0%;
+  }
+  .calculator{
+    top: -85%;
+  }
+}
+
+@media (max-width: 992px){
+  .teambuilder{
+    margin-top: 0;
+  }
+  .calculator{
+    top: 0%;
+    margin-top: 30px;
+  }
+}
